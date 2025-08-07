@@ -91,8 +91,32 @@ class ThriftManager:
         self.save_data()
         return True
 
-def init_sample_data(manager: ThriftManager):
-    """Initialize with sample data"""
+def load_mock_data(manager: ThriftManager):
+    """Load comprehensive mock data from JSON file"""
+    mock_data_file = "attached_assets/mock_thrift_data_1754567673631.json"
+    
+    try:
+        # Only load if no data exists to avoid overwriting user data
+        if not manager.data:
+            with open(mock_data_file, 'r') as f:
+                mock_data_list = json.load(f)
+            
+            # Convert list format to dictionary format for our data structure
+            for member in mock_data_list:
+                member_id = member.pop("MemberID")  # Remove MemberID from member data
+                manager.data[member_id] = member
+            
+            manager.save_data()
+            st.sidebar.success(f"✅ Loaded {len(mock_data_list)} members with mock data")
+    except FileNotFoundError:
+        # Fallback to basic sample data if mock file not found
+        init_basic_sample_data(manager)
+    except Exception as e:
+        st.sidebar.error(f"Error loading mock data: {str(e)}")
+        init_basic_sample_data(manager)
+
+def init_basic_sample_data(manager: ThriftManager):
+    """Initialize with basic sample data as fallback"""
     sample_member = {
         "MemberName": "Ramu Parasinma",
         "MSNo": "7036",
@@ -113,18 +137,6 @@ def init_sample_data(manager: ThriftManager):
                 "InterestAmount": 5910.74,
                 "TransactionType": "Bulk",
                 "InterestBand": "10.8%"
-            },
-            {
-                "Date": "2025-02-10",
-                "Recovery": 80000,
-                "ReceiptNumber": None,
-                "Paid": 575463,
-                "Balance": 575463,
-                "DaysHeld": 140,
-                "InterestRate": 8.5,
-                "InterestAmount": 2604.66,
-                "TransactionType": "Monthly",
-                "InterestBand": "8.5%"
             }
         ]
     }
@@ -138,13 +150,13 @@ def main():
     
     # Initialize manager
     manager = ThriftManager()
-    init_sample_data(manager)
+    load_mock_data(manager)
     
     # Sidebar navigation
     st.sidebar.title("Navigation")
     page = st.sidebar.selectbox(
         "Select Page",
-        ["🔍 Search & View", "➕ Add Member", "📊 Add Transaction", "📈 Analytics"]
+        ["🔍 Search & View", "➕ Add Member", "📊 Add Transaction", "📈 Analytics", "📂 Data Management"]
     )
     
     if page == "🔍 Search & View":
@@ -155,6 +167,8 @@ def main():
         add_transaction_page(manager)
     elif page == "📈 Analytics":
         analytics_page(manager)
+    elif page == "📂 Data Management":
+        data_management_page(manager)
 
 def search_and_view_page(manager: ThriftManager):
     st.header("🔍 Search & View Members")
@@ -472,3 +486,110 @@ def analytics_page(manager: ThriftManager):
 
 if __name__ == "__main__":
     main()
+
+
+
+def data_management_page(manager: ThriftManager):
+    st.header("📂 Data Management")
+    
+    # Current data status
+    st.subheader("Current Data Status")
+    col1, col2, col3 = st.columns(3)
+    
+    with col1:
+        total_members = len(manager.data)
+        st.metric("Total Members", total_members)
+    
+    with col2:
+        total_transactions = sum(len(member.get('ThriftRecords', [])) for member in manager.data.values())
+        st.metric("Total Transactions", total_transactions)
+    
+    with col3:
+        data_file_exists = os.path.exists(manager.data_file)
+        st.metric("Data File Status", "✅ Exists" if data_file_exists else "❌ Missing")
+    
+    st.markdown("---")
+    
+    # Data Actions
+    col1, col2 = st.columns(2)
+    
+    with col1:
+        st.subheader("🔄 Reload Mock Data")
+        st.info("This will reload the comprehensive sample data with 20+ members and their transaction history.")
+        
+        if st.button("🔄 Reload Mock Data", type="secondary"):
+            # Clear existing data
+            manager.data = {}
+            # Reload mock data
+            load_mock_data(manager)
+            st.success("Mock data reloaded successfully!")
+            st.rerun()
+    
+    with col2:
+        st.subheader("🗑️ Clear All Data")
+        st.warning("This will permanently delete all current data!")
+        
+        if st.button("🗑️ Clear All Data", type="secondary"):
+            manager.data = {}
+            manager.save_data()
+            st.success("All data cleared!")
+            st.rerun()
+    
+    st.markdown("---")
+    
+    # Export functionality
+    st.subheader("📤 Export Data")
+    if manager.data:
+        # Convert data to exportable format
+        export_data = []
+        for member_id, member_data in manager.data.items():
+            export_data.append({
+                "MemberID": member_id,
+                **member_data
+            })
+        
+        export_json = json.dumps(export_data, indent=2, default=str)
+        
+        col1, col2 = st.columns(2)
+        with col1:
+            st.download_button(
+                label="📥 Download JSON",
+                data=export_json,
+                file_name=f"thrift_data_export_{datetime.now().strftime('%Y%m%d_%H%M%S')}.json",
+                mime="application/json"
+            )
+        
+        with col2:
+            # Convert to CSV for easier viewing
+            csv_data = []
+            for member_id, member_data in manager.data.items():
+                for transaction in member_data.get('ThriftRecords', []):
+                    csv_data.append({
+                        'MemberID': member_id,
+                        'MemberName': member_data.get('MemberName', ''),
+                        'MSNo': member_data.get('MSNo', ''),
+                        'ShareCapital': member_data.get('ShareCapital', 0),
+                        'OpeningBalance': member_data.get('OpeningBalance', {}).get('ThriftBalance', 0),
+                        **transaction
+                    })
+            
+            if csv_data:
+                df_export = pd.DataFrame(csv_data)
+                csv_string = df_export.to_csv(index=False)
+                
+                st.download_button(
+                    label="📊 Download CSV",
+                    data=csv_string,
+                    file_name=f"thrift_transactions_export_{datetime.now().strftime('%Y%m%d_%H%M%S')}.csv",
+                    mime="text/csv"
+                )
+    else:
+        st.info("No data available for export.")
+    
+    # Data preview
+    if manager.data:
+        st.subheader("📋 Data Preview")
+        st.write(f"Preview of current data structure (showing first 3 members):")
+        
+        preview_data = dict(list(manager.data.items())[:3])
+        st.json(preview_data)
