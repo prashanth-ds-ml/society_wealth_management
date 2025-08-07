@@ -16,7 +16,7 @@ st.set_page_config(
 )
 
 class ThriftManager:
-    def __init__(self, data_file="mock_thrift_data.json"):
+    def __init__(self, data_file="thrift_data.json"):
         self.data_file = data_file
         self.data = self.load_data()
     
@@ -24,7 +24,13 @@ class ThriftManager:
         """Load data from JSON file"""
         if os.path.exists(self.data_file):
             with open(self.data_file, 'r') as f:
-                return json.load(f)
+                data = json.load(f)
+                # Ensure we always return a dictionary
+                if isinstance(data, dict):
+                    return data
+                else:
+                    # If data is not a dict (e.g., a list), return empty dict
+                    return {}
         return {}
     
     def save_data(self):
@@ -103,8 +109,9 @@ def load_mock_data(manager: ThriftManager):
             
             # Convert list format to dictionary format for our data structure
             for member in mock_data_list:
-                member_id = member.pop("MemberID")  # Remove MemberID from member data
-                manager.data[member_id] = member
+                member_copy = member.copy()  # Create a copy to avoid modifying original
+                member_id = member_copy.pop("MemberID")  # Remove MemberID from member data
+                manager.data[member_id] = member_copy
             
             manager.save_data()
             st.sidebar.success(f"✅ Loaded {len(mock_data_list)} members with mock data")
