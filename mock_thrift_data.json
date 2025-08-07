@@ -1,0 +1,1298 @@
+[
+  {
+    "MemberID": "102824",
+    "MemberName": "Ramu Parasinma",
+    "MSNo": "7025",
+    "ShareCapital": 800,
+    "OpeningBalance": {
+      "Date": "2024-12-31",
+      "ThriftBalance": 394393
+    },
+    "ThriftRecords": [
+      {
+        "Date": "2025-01-24",
+        "Recovery": 80000,
+        "ReceiptNumber": null,
+        "Paid": 474393,
+        "Balance": 474393,
+        "DaysHeld": 188,
+        "InterestRate": 8.5,
+        "InterestAmount": 3502.47,
+        "TransactionType": "Monthly",
+        "InterestBand": "8.5%"
+      },
+      {
+        "Date": "2025-03-04",
+        "Recovery": 80000,
+        "ReceiptNumber": null,
+        "Paid": 554393,
+        "Balance": 554393,
+        "DaysHeld": 149,
+        "InterestRate": 8.5,
+        "InterestAmount": 2775.89,
+        "TransactionType": "Monthly",
+        "InterestBand": "8.5%"
+      },
+      {
+        "Date": "2025-05-24",
+        "Recovery": 80000,
+        "ReceiptNumber": "RCP833",
+        "Paid": 634393,
+        "Balance": 634393,
+        "DaysHeld": 68,
+        "InterestRate": 8.5,
+        "InterestAmount": 1266.85,
+        "TransactionType": "Bulk",
+        "InterestBand": "8.5%"
+      },
+      {
+        "Date": "2025-06-01",
+        "Recovery": 120000,
+        "ReceiptNumber": null,
+        "Paid": 754393,
+        "Balance": 754393,
+        "DaysHeld": 60,
+        "InterestRate": 10.8,
+        "InterestAmount": 2130.41,
+        "TransactionType": "Monthly",
+        "InterestBand": "10.8%"
+      },
+      {
+        "Date": "2025-06-23",
+        "Recovery": 180000,
+        "ReceiptNumber": null,
+        "Paid": 934393,
+        "Balance": 934393,
+        "DaysHeld": 38,
+        "InterestRate": 10.8,
+        "InterestAmount": 2023.89,
+        "TransactionType": "Monthly",
+        "InterestBand": "10.8%"
+      }
+    ]
+  },
+  {
+    "MemberID": "104611",
+    "MemberName": "Lakshmi Devi",
+    "MSNo": "7459",
+    "ShareCapital": 800,
+    "OpeningBalance": {
+      "Date": "2024-12-31",
+      "ThriftBalance": 354472
+    },
+    "ThriftRecords": [
+      {
+        "Date": "2025-01-27",
+        "Recovery": 50000,
+        "ReceiptNumber": null,
+        "Paid": 404472,
+        "Balance": 404472,
+        "DaysHeld": 185,
+        "InterestRate": 8.5,
+        "InterestAmount": 2154.11,
+        "TransactionType": "Monthly",
+        "InterestBand": "8.5%"
+      },
+      {
+        "Date": "2025-02-09",
+        "Recovery": 80000,
+        "ReceiptNumber": "RCP881",
+        "Paid": 484472,
+        "Balance": 484472,
+        "DaysHeld": 172,
+        "InterestRate": 8.5,
+        "InterestAmount": 3204.38,
+        "TransactionType": "Bulk",
+        "InterestBand": "8.5%"
+      },
+      {
+        "Date": "2025-04-02",
+        "Recovery": 200000,
+        "ReceiptNumber": "RCP452",
+        "Paid": 684472,
+        "Balance": 684472,
+        "DaysHeld": 120,
+        "InterestRate": 10.8,
+        "InterestAmount": 7101.37,
+        "TransactionType": "Bulk",
+        "InterestBand": "10.8%"
+      },
+      {
+        "Date": "2025-06-28",
+        "Recovery": 120000,
+        "ReceiptNumber": "RCP448",
+        "Paid": 804472,
+        "Balance": 804472,
+        "DaysHeld": 33,
+        "InterestRate": 10.8,
+        "InterestAmount": 1171.73,
+        "TransactionType": "Bulk",
+        "InterestBand": "10.8%"
+      },
+      {
+        "Date": "2025-07-27",
+        "Recovery": 200000,
+        "ReceiptNumber": null,
+        "Paid": 1004472,
+        "Balance": 1004472,
+        "DaysHeld": 4,
+        "InterestRate": 10.8,
+        "InterestAmount": 236.71,
+        "TransactionType": "Monthly",
+        "InterestBand": "10.8%"
+      }
+    ]
+  },
+  {
+    "MemberID": "101711",
+    "MemberName": "Suresh Kumar",
+    "MSNo": "7747",
+    "ShareCapital": 800,
+    "OpeningBalance": {
+      "Date": "2024-12-31",
+      "ThriftBalance": 320435
+    },
+    "ThriftRecords": [
+      {
+        "Date": "2025-04-07",
+        "Recovery": 50000,
+        "ReceiptNumber": "RCP665",
+        "Paid": 370435,
+        "Balance": 370435,
+        "DaysHeld": 115,
+        "InterestRate": 8.5,
+        "InterestAmount": 1339.04,
+        "TransactionType": "Bulk",
+        "InterestBand": "8.5%"
+      },
+      {
+        "Date": "2025-05-28",
+        "Recovery": 80000,
+        "ReceiptNumber": null,
+        "Paid": 450435,
+        "Balance": 450435,
+        "DaysHeld": 64,
+        "InterestRate": 8.5,
+        "InterestAmount": 1192.33,
+        "TransactionType": "Monthly",
+        "InterestBand": "8.5%"
+      },
+      {
+        "Date": "2025-06-10",
+        "Recovery": 150000,
+        "ReceiptNumber": "RCP982",
+        "Paid": 600435,
+        "Balance": 600435,
+        "DaysHeld": 51,
+        "InterestRate": 10.8,
+        "InterestAmount": 2263.56,
+        "TransactionType": "Bulk",
+        "InterestBand": "10.8%"
+      }
+    ]
+  },
+  {
+    "MemberID": "101750",
+    "MemberName": "Meena Sharma",
+    "MSNo": "7677",
+    "ShareCapital": 800,
+    "OpeningBalance": {
+      "Date": "2024-12-31",
+      "ThriftBalance": 259742
+    },
+    "ThriftRecords": [
+      {
+        "Date": "2025-01-21",
+        "Recovery": 200000,
+        "ReceiptNumber": null,
+        "Paid": 459742,
+        "Balance": 459742,
+        "DaysHeld": 191,
+        "InterestRate": 10.8,
+        "InterestAmount": 11303.01,
+        "TransactionType": "Monthly",
+        "InterestBand": "10.8%"
+      },
+      {
+        "Date": "2025-02-11",
+        "Recovery": 100000,
+        "ReceiptNumber": null,
+        "Paid": 559742,
+        "Balance": 559742,
+        "DaysHeld": 170,
+        "InterestRate": 10.8,
+        "InterestAmount": 5030.14,
+        "TransactionType": "Monthly",
+        "InterestBand": "10.8%"
+      },
+      {
+        "Date": "2025-04-08",
+        "Recovery": 100000,
+        "ReceiptNumber": "RCP564",
+        "Paid": 659742,
+        "Balance": 659742,
+        "DaysHeld": 114,
+        "InterestRate": 10.8,
+        "InterestAmount": 3373.15,
+        "TransactionType": "Bulk",
+        "InterestBand": "10.8%"
+      },
+      {
+        "Date": "2025-06-05",
+        "Recovery": 180000,
+        "ReceiptNumber": null,
+        "Paid": 839742,
+        "Balance": 839742,
+        "DaysHeld": 56,
+        "InterestRate": 10.8,
+        "InterestAmount": 2982.58,
+        "TransactionType": "Monthly",
+        "InterestBand": "10.8%"
+      },
+      {
+        "Date": "2025-06-21",
+        "Recovery": 100000,
+        "ReceiptNumber": null,
+        "Paid": 939742,
+        "Balance": 939742,
+        "DaysHeld": 40,
+        "InterestRate": 10.8,
+        "InterestAmount": 1183.56,
+        "TransactionType": "Monthly",
+        "InterestBand": "10.8%"
+      }
+    ]
+  },
+  {
+    "MemberID": "103677",
+    "MemberName": "Kiran Reddy",
+    "MSNo": "7473",
+    "ShareCapital": 800,
+    "OpeningBalance": {
+      "Date": "2024-12-31",
+      "ThriftBalance": 299471
+    },
+    "ThriftRecords": [
+      {
+        "Date": "2025-02-28",
+        "Recovery": 200000,
+        "ReceiptNumber": "RCP132",
+        "Paid": 499471,
+        "Balance": 499471,
+        "DaysHeld": 153,
+        "InterestRate": 10.8,
+        "InterestAmount": 9054.25,
+        "TransactionType": "Bulk",
+        "InterestBand": "10.8%"
+      },
+      {
+        "Date": "2025-04-13",
+        "Recovery": 100000,
+        "ReceiptNumber": null,
+        "Paid": 599471,
+        "Balance": 599471,
+        "DaysHeld": 109,
+        "InterestRate": 10.8,
+        "InterestAmount": 3225.21,
+        "TransactionType": "Monthly",
+        "InterestBand": "10.8%"
+      },
+      {
+        "Date": "2025-05-26",
+        "Recovery": 180000,
+        "ReceiptNumber": null,
+        "Paid": 779471,
+        "Balance": 779471,
+        "DaysHeld": 66,
+        "InterestRate": 10.8,
+        "InterestAmount": 3515.18,
+        "TransactionType": "Monthly",
+        "InterestBand": "10.8%"
+      },
+      {
+        "Date": "2025-06-13",
+        "Recovery": 180000,
+        "ReceiptNumber": null,
+        "Paid": 959471,
+        "Balance": 959471,
+        "DaysHeld": 48,
+        "InterestRate": 10.8,
+        "InterestAmount": 2556.49,
+        "TransactionType": "Monthly",
+        "InterestBand": "10.8%"
+      },
+      {
+        "Date": "2025-06-25",
+        "Recovery": 100000,
+        "ReceiptNumber": null,
+        "Paid": 1059471,
+        "Balance": 1059471,
+        "DaysHeld": 36,
+        "InterestRate": 10.8,
+        "InterestAmount": 1065.21,
+        "TransactionType": "Monthly",
+        "InterestBand": "10.8%"
+      }
+    ]
+  },
+  {
+    "MemberID": "109179",
+    "MemberName": "Anjali Rao",
+    "MSNo": "7405",
+    "ShareCapital": 800,
+    "OpeningBalance": {
+      "Date": "2024-12-31",
+      "ThriftBalance": 368519
+    },
+    "ThriftRecords": [
+      {
+        "Date": "2025-01-24",
+        "Recovery": 200000,
+        "ReceiptNumber": null,
+        "Paid": 568519,
+        "Balance": 568519,
+        "DaysHeld": 188,
+        "InterestRate": 10.8,
+        "InterestAmount": 11125.48,
+        "TransactionType": "Monthly",
+        "InterestBand": "10.8%"
+      },
+      {
+        "Date": "2025-02-06",
+        "Recovery": 100000,
+        "ReceiptNumber": null,
+        "Paid": 668519,
+        "Balance": 668519,
+        "DaysHeld": 175,
+        "InterestRate": 10.8,
+        "InterestAmount": 5178.08,
+        "TransactionType": "Monthly",
+        "InterestBand": "10.8%"
+      },
+      {
+        "Date": "2025-02-09",
+        "Recovery": 180000,
+        "ReceiptNumber": "RCP263",
+        "Paid": 848519,
+        "Balance": 848519,
+        "DaysHeld": 172,
+        "InterestRate": 10.8,
+        "InterestAmount": 9160.77,
+        "TransactionType": "Bulk",
+        "InterestBand": "10.8%"
+      },
+      {
+        "Date": "2025-04-03",
+        "Recovery": 80000,
+        "ReceiptNumber": "RCP241",
+        "Paid": 928519,
+        "Balance": 928519,
+        "DaysHeld": 119,
+        "InterestRate": 8.5,
+        "InterestAmount": 2216.99,
+        "TransactionType": "Bulk",
+        "InterestBand": "8.5%"
+      },
+      {
+        "Date": "2025-07-10",
+        "Recovery": 150000,
+        "ReceiptNumber": "RCP651",
+        "Paid": 1078519,
+        "Balance": 1078519,
+        "DaysHeld": 21,
+        "InterestRate": 10.8,
+        "InterestAmount": 932.05,
+        "TransactionType": "Bulk",
+        "InterestBand": "10.8%"
+      },
+      {
+        "Date": "2025-07-11",
+        "Recovery": 150000,
+        "ReceiptNumber": "RCP538",
+        "Paid": 1228519,
+        "Balance": 1228519,
+        "DaysHeld": 20,
+        "InterestRate": 10.8,
+        "InterestAmount": 887.67,
+        "TransactionType": "Bulk",
+        "InterestBand": "10.8%"
+      }
+    ]
+  },
+  {
+    "MemberID": "102040",
+    "MemberName": "Venkatesh Iyer",
+    "MSNo": "7394",
+    "ShareCapital": 800,
+    "OpeningBalance": {
+      "Date": "2024-12-31",
+      "ThriftBalance": 300039
+    },
+    "ThriftRecords": [
+      {
+        "Date": "2025-01-01",
+        "Recovery": 180000,
+        "ReceiptNumber": "RCP996",
+        "Paid": 480039,
+        "Balance": 480039,
+        "DaysHeld": 211,
+        "InterestRate": 10.8,
+        "InterestAmount": 11237.92,
+        "TransactionType": "Bulk",
+        "InterestBand": "10.8%"
+      },
+      {
+        "Date": "2025-03-17",
+        "Recovery": 120000,
+        "ReceiptNumber": "RCP261",
+        "Paid": 600039,
+        "Balance": 600039,
+        "DaysHeld": 136,
+        "InterestRate": 10.8,
+        "InterestAmount": 4828.93,
+        "TransactionType": "Bulk",
+        "InterestBand": "10.8%"
+      },
+      {
+        "Date": "2025-05-09",
+        "Recovery": 200000,
+        "ReceiptNumber": null,
+        "Paid": 800039,
+        "Balance": 800039,
+        "DaysHeld": 83,
+        "InterestRate": 10.8,
+        "InterestAmount": 4911.78,
+        "TransactionType": "Monthly",
+        "InterestBand": "10.8%"
+      },
+      {
+        "Date": "2025-05-16",
+        "Recovery": 100000,
+        "ReceiptNumber": null,
+        "Paid": 900039,
+        "Balance": 900039,
+        "DaysHeld": 76,
+        "InterestRate": 10.8,
+        "InterestAmount": 2248.77,
+        "TransactionType": "Monthly",
+        "InterestBand": "10.8%"
+      },
+      {
+        "Date": "2025-06-24",
+        "Recovery": 180000,
+        "ReceiptNumber": "RCP217",
+        "Paid": 1080039,
+        "Balance": 1080039,
+        "DaysHeld": 37,
+        "InterestRate": 10.8,
+        "InterestAmount": 1970.63,
+        "TransactionType": "Bulk",
+        "InterestBand": "10.8%"
+      },
+      {
+        "Date": "2025-07-16",
+        "Recovery": 180000,
+        "ReceiptNumber": null,
+        "Paid": 1260039,
+        "Balance": 1260039,
+        "DaysHeld": 15,
+        "InterestRate": 10.8,
+        "InterestAmount": 798.9,
+        "TransactionType": "Monthly",
+        "InterestBand": "10.8%"
+      }
+    ]
+  },
+  {
+    "MemberID": "105889",
+    "MemberName": "Priya Singh",
+    "MSNo": "7861",
+    "ShareCapital": 800,
+    "OpeningBalance": {
+      "Date": "2024-12-31",
+      "ThriftBalance": 367496
+    },
+    "ThriftRecords": [
+      {
+        "Date": "2025-01-29",
+        "Recovery": 100000,
+        "ReceiptNumber": "RCP999",
+        "Paid": 467496,
+        "Balance": 467496,
+        "DaysHeld": 183,
+        "InterestRate": 10.8,
+        "InterestAmount": 5414.79,
+        "TransactionType": "Bulk",
+        "InterestBand": "10.8%"
+      },
+      {
+        "Date": "2025-02-09",
+        "Recovery": 100000,
+        "ReceiptNumber": null,
+        "Paid": 567496,
+        "Balance": 567496,
+        "DaysHeld": 172,
+        "InterestRate": 10.8,
+        "InterestAmount": 5089.32,
+        "TransactionType": "Monthly",
+        "InterestBand": "10.8%"
+      },
+      {
+        "Date": "2025-05-19",
+        "Recovery": 200000,
+        "ReceiptNumber": null,
+        "Paid": 767496,
+        "Balance": 767496,
+        "DaysHeld": 73,
+        "InterestRate": 10.8,
+        "InterestAmount": 4320.0,
+        "TransactionType": "Monthly",
+        "InterestBand": "10.8%"
+      },
+      {
+        "Date": "2025-06-03",
+        "Recovery": 100000,
+        "ReceiptNumber": null,
+        "Paid": 867496,
+        "Balance": 867496,
+        "DaysHeld": 58,
+        "InterestRate": 10.8,
+        "InterestAmount": 1716.16,
+        "TransactionType": "Monthly",
+        "InterestBand": "10.8%"
+      }
+    ]
+  },
+  {
+    "MemberID": "104923",
+    "MemberName": "Ravi Teja",
+    "MSNo": "7059",
+    "ShareCapital": 800,
+    "OpeningBalance": {
+      "Date": "2024-12-31",
+      "ThriftBalance": 263143
+    },
+    "ThriftRecords": [
+      {
+        "Date": "2025-01-22",
+        "Recovery": 180000,
+        "ReceiptNumber": null,
+        "Paid": 443143,
+        "Balance": 443143,
+        "DaysHeld": 190,
+        "InterestRate": 10.8,
+        "InterestAmount": 10119.45,
+        "TransactionType": "Monthly",
+        "InterestBand": "10.8%"
+      },
+      {
+        "Date": "2025-02-02",
+        "Recovery": 180000,
+        "ReceiptNumber": null,
+        "Paid": 623143,
+        "Balance": 623143,
+        "DaysHeld": 179,
+        "InterestRate": 10.8,
+        "InterestAmount": 9533.59,
+        "TransactionType": "Monthly",
+        "InterestBand": "10.8%"
+      },
+      {
+        "Date": "2025-07-14",
+        "Recovery": 150000,
+        "ReceiptNumber": null,
+        "Paid": 773143,
+        "Balance": 773143,
+        "DaysHeld": 17,
+        "InterestRate": 10.8,
+        "InterestAmount": 754.52,
+        "TransactionType": "Monthly",
+        "InterestBand": "10.8%"
+      }
+    ]
+  },
+  {
+    "MemberID": "105342",
+    "MemberName": "Sunita Patel",
+    "MSNo": "7540",
+    "ShareCapital": 800,
+    "OpeningBalance": {
+      "Date": "2024-12-31",
+      "ThriftBalance": 359014
+    },
+    "ThriftRecords": [
+      {
+        "Date": "2025-01-06",
+        "Recovery": 150000,
+        "ReceiptNumber": null,
+        "Paid": 509014,
+        "Balance": 509014,
+        "DaysHeld": 206,
+        "InterestRate": 10.8,
+        "InterestAmount": 9143.01,
+        "TransactionType": "Monthly",
+        "InterestBand": "10.8%"
+      },
+      {
+        "Date": "2025-02-24",
+        "Recovery": 150000,
+        "ReceiptNumber": null,
+        "Paid": 659014,
+        "Balance": 659014,
+        "DaysHeld": 157,
+        "InterestRate": 10.8,
+        "InterestAmount": 6968.22,
+        "TransactionType": "Monthly",
+        "InterestBand": "10.8%"
+      },
+      {
+        "Date": "2025-03-05",
+        "Recovery": 80000,
+        "ReceiptNumber": "RCP165",
+        "Paid": 739014,
+        "Balance": 739014,
+        "DaysHeld": 148,
+        "InterestRate": 8.5,
+        "InterestAmount": 2757.26,
+        "TransactionType": "Bulk",
+        "InterestBand": "8.5%"
+      },
+      {
+        "Date": "2025-04-23",
+        "Recovery": 150000,
+        "ReceiptNumber": null,
+        "Paid": 889014,
+        "Balance": 889014,
+        "DaysHeld": 99,
+        "InterestRate": 10.8,
+        "InterestAmount": 4393.97,
+        "TransactionType": "Monthly",
+        "InterestBand": "10.8%"
+      },
+      {
+        "Date": "2025-05-31",
+        "Recovery": 80000,
+        "ReceiptNumber": null,
+        "Paid": 969014,
+        "Balance": 969014,
+        "DaysHeld": 61,
+        "InterestRate": 8.5,
+        "InterestAmount": 1136.44,
+        "TransactionType": "Monthly",
+        "InterestBand": "8.5%"
+      },
+      {
+        "Date": "2025-07-02",
+        "Recovery": 100000,
+        "ReceiptNumber": "RCP508",
+        "Paid": 1069014,
+        "Balance": 1069014,
+        "DaysHeld": 29,
+        "InterestRate": 10.8,
+        "InterestAmount": 858.08,
+        "TransactionType": "Bulk",
+        "InterestBand": "10.8%"
+      }
+    ]
+  },
+  {
+    "MemberID": "101964",
+    "MemberName": "Ganesh Murthy",
+    "MSNo": "7234",
+    "ShareCapital": 800,
+    "OpeningBalance": {
+      "Date": "2024-12-31",
+      "ThriftBalance": 217668
+    },
+    "ThriftRecords": [
+      {
+        "Date": "2025-03-13",
+        "Recovery": 180000,
+        "ReceiptNumber": null,
+        "Paid": 397668,
+        "Balance": 397668,
+        "DaysHeld": 140,
+        "InterestRate": 10.8,
+        "InterestAmount": 7456.44,
+        "TransactionType": "Monthly",
+        "InterestBand": "10.8%"
+      },
+      {
+        "Date": "2025-03-26",
+        "Recovery": 50000,
+        "ReceiptNumber": null,
+        "Paid": 447668,
+        "Balance": 447668,
+        "DaysHeld": 127,
+        "InterestRate": 8.5,
+        "InterestAmount": 1478.77,
+        "TransactionType": "Monthly",
+        "InterestBand": "8.5%"
+      },
+      {
+        "Date": "2025-05-19",
+        "Recovery": 80000,
+        "ReceiptNumber": "RCP840",
+        "Paid": 527668,
+        "Balance": 527668,
+        "DaysHeld": 73,
+        "InterestRate": 8.5,
+        "InterestAmount": 1360.0,
+        "TransactionType": "Bulk",
+        "InterestBand": "8.5%"
+      }
+    ]
+  },
+  {
+    "MemberID": "104981",
+    "MemberName": "Asha Bhosale",
+    "MSNo": "7803",
+    "ShareCapital": 800,
+    "OpeningBalance": {
+      "Date": "2024-12-31",
+      "ThriftBalance": 323987
+    },
+    "ThriftRecords": [
+      {
+        "Date": "2025-01-16",
+        "Recovery": 120000,
+        "ReceiptNumber": "RCP845",
+        "Paid": 443987,
+        "Balance": 443987,
+        "DaysHeld": 196,
+        "InterestRate": 10.8,
+        "InterestAmount": 6959.34,
+        "TransactionType": "Bulk",
+        "InterestBand": "10.8%"
+      },
+      {
+        "Date": "2025-02-18",
+        "Recovery": 50000,
+        "ReceiptNumber": "RCP199",
+        "Paid": 493987,
+        "Balance": 493987,
+        "DaysHeld": 163,
+        "InterestRate": 8.5,
+        "InterestAmount": 1897.95,
+        "TransactionType": "Bulk",
+        "InterestBand": "8.5%"
+      },
+      {
+        "Date": "2025-02-19",
+        "Recovery": 80000,
+        "ReceiptNumber": "RCP649",
+        "Paid": 573987,
+        "Balance": 573987,
+        "DaysHeld": 162,
+        "InterestRate": 8.5,
+        "InterestAmount": 3018.08,
+        "TransactionType": "Bulk",
+        "InterestBand": "8.5%"
+      },
+      {
+        "Date": "2025-04-01",
+        "Recovery": 120000,
+        "ReceiptNumber": "RCP520",
+        "Paid": 693987,
+        "Balance": 693987,
+        "DaysHeld": 121,
+        "InterestRate": 10.8,
+        "InterestAmount": 4296.33,
+        "TransactionType": "Bulk",
+        "InterestBand": "10.8%"
+      },
+      {
+        "Date": "2025-07-06",
+        "Recovery": 50000,
+        "ReceiptNumber": null,
+        "Paid": 743987,
+        "Balance": 743987,
+        "DaysHeld": 25,
+        "InterestRate": 8.5,
+        "InterestAmount": 291.1,
+        "TransactionType": "Monthly",
+        "InterestBand": "8.5%"
+      },
+      {
+        "Date": "2025-07-24",
+        "Recovery": 200000,
+        "ReceiptNumber": null,
+        "Paid": 943987,
+        "Balance": 943987,
+        "DaysHeld": 7,
+        "InterestRate": 10.8,
+        "InterestAmount": 414.25,
+        "TransactionType": "Monthly",
+        "InterestBand": "10.8%"
+      }
+    ]
+  },
+  {
+    "MemberID": "103296",
+    "MemberName": "Naresh Goud",
+    "MSNo": "7432",
+    "ShareCapital": 800,
+    "OpeningBalance": {
+      "Date": "2024-12-31",
+      "ThriftBalance": 248100
+    },
+    "ThriftRecords": [
+      {
+        "Date": "2025-01-13",
+        "Recovery": 180000,
+        "ReceiptNumber": null,
+        "Paid": 428100,
+        "Balance": 428100,
+        "DaysHeld": 199,
+        "InterestRate": 10.8,
+        "InterestAmount": 10598.79,
+        "TransactionType": "Monthly",
+        "InterestBand": "10.8%"
+      },
+      {
+        "Date": "2025-01-24",
+        "Recovery": 200000,
+        "ReceiptNumber": null,
+        "Paid": 628100,
+        "Balance": 628100,
+        "DaysHeld": 188,
+        "InterestRate": 10.8,
+        "InterestAmount": 11125.48,
+        "TransactionType": "Monthly",
+        "InterestBand": "10.8%"
+      },
+      {
+        "Date": "2025-02-12",
+        "Recovery": 120000,
+        "ReceiptNumber": "RCP597",
+        "Paid": 748100,
+        "Balance": 748100,
+        "DaysHeld": 169,
+        "InterestRate": 10.8,
+        "InterestAmount": 6000.66,
+        "TransactionType": "Bulk",
+        "InterestBand": "10.8%"
+      },
+      {
+        "Date": "2025-04-24",
+        "Recovery": 200000,
+        "ReceiptNumber": null,
+        "Paid": 948100,
+        "Balance": 948100,
+        "DaysHeld": 98,
+        "InterestRate": 10.8,
+        "InterestAmount": 5799.45,
+        "TransactionType": "Monthly",
+        "InterestBand": "10.8%"
+      },
+      {
+        "Date": "2025-04-29",
+        "Recovery": 80000,
+        "ReceiptNumber": null,
+        "Paid": 1028100,
+        "Balance": 1028100,
+        "DaysHeld": 93,
+        "InterestRate": 8.5,
+        "InterestAmount": 1732.6,
+        "TransactionType": "Monthly",
+        "InterestBand": "8.5%"
+      }
+    ]
+  },
+  {
+    "MemberID": "104502",
+    "MemberName": "Neha Jain",
+    "MSNo": "7885",
+    "ShareCapital": 800,
+    "OpeningBalance": {
+      "Date": "2024-12-31",
+      "ThriftBalance": 305130
+    },
+    "ThriftRecords": [
+      {
+        "Date": "2025-02-12",
+        "Recovery": 120000,
+        "ReceiptNumber": "RCP102",
+        "Paid": 425130,
+        "Balance": 425130,
+        "DaysHeld": 169,
+        "InterestRate": 10.8,
+        "InterestAmount": 6000.66,
+        "TransactionType": "Bulk",
+        "InterestBand": "10.8%"
+      },
+      {
+        "Date": "2025-03-09",
+        "Recovery": 200000,
+        "ReceiptNumber": "RCP903",
+        "Paid": 625130,
+        "Balance": 625130,
+        "DaysHeld": 144,
+        "InterestRate": 10.8,
+        "InterestAmount": 8521.64,
+        "TransactionType": "Bulk",
+        "InterestBand": "10.8%"
+      },
+      {
+        "Date": "2025-03-15",
+        "Recovery": 120000,
+        "ReceiptNumber": "RCP813",
+        "Paid": 745130,
+        "Balance": 745130,
+        "DaysHeld": 138,
+        "InterestRate": 10.8,
+        "InterestAmount": 4899.95,
+        "TransactionType": "Bulk",
+        "InterestBand": "10.8%"
+      }
+    ]
+  },
+  {
+    "MemberID": "103536",
+    "MemberName": "Harsha Vardhan",
+    "MSNo": "7194",
+    "ShareCapital": 800,
+    "OpeningBalance": {
+      "Date": "2024-12-31",
+      "ThriftBalance": 277780
+    },
+    "ThriftRecords": [
+      {
+        "Date": "2025-01-15",
+        "Recovery": 150000,
+        "ReceiptNumber": null,
+        "Paid": 427780,
+        "Balance": 427780,
+        "DaysHeld": 197,
+        "InterestRate": 10.8,
+        "InterestAmount": 8743.56,
+        "TransactionType": "Monthly",
+        "InterestBand": "10.8%"
+      },
+      {
+        "Date": "2025-01-15",
+        "Recovery": 150000,
+        "ReceiptNumber": null,
+        "Paid": 577780,
+        "Balance": 577780,
+        "DaysHeld": 197,
+        "InterestRate": 10.8,
+        "InterestAmount": 8743.56,
+        "TransactionType": "Monthly",
+        "InterestBand": "10.8%"
+      },
+      {
+        "Date": "2025-05-30",
+        "Recovery": 120000,
+        "ReceiptNumber": null,
+        "Paid": 697780,
+        "Balance": 697780,
+        "DaysHeld": 62,
+        "InterestRate": 10.8,
+        "InterestAmount": 2201.42,
+        "TransactionType": "Monthly",
+        "InterestBand": "10.8%"
+      },
+      {
+        "Date": "2025-07-11",
+        "Recovery": 100000,
+        "ReceiptNumber": null,
+        "Paid": 797780,
+        "Balance": 797780,
+        "DaysHeld": 20,
+        "InterestRate": 10.8,
+        "InterestAmount": 591.78,
+        "TransactionType": "Monthly",
+        "InterestBand": "10.8%"
+      }
+    ]
+  },
+  {
+    "MemberID": "102122",
+    "MemberName": "Deepa Menon",
+    "MSNo": "7609",
+    "ShareCapital": 800,
+    "OpeningBalance": {
+      "Date": "2024-12-31",
+      "ThriftBalance": 217815
+    },
+    "ThriftRecords": [
+      {
+        "Date": "2025-03-08",
+        "Recovery": 80000,
+        "ReceiptNumber": "RCP785",
+        "Paid": 297815,
+        "Balance": 297815,
+        "DaysHeld": 145,
+        "InterestRate": 8.5,
+        "InterestAmount": 2701.37,
+        "TransactionType": "Bulk",
+        "InterestBand": "8.5%"
+      },
+      {
+        "Date": "2025-04-14",
+        "Recovery": 50000,
+        "ReceiptNumber": null,
+        "Paid": 347815,
+        "Balance": 347815,
+        "DaysHeld": 108,
+        "InterestRate": 8.5,
+        "InterestAmount": 1257.53,
+        "TransactionType": "Monthly",
+        "InterestBand": "8.5%"
+      },
+      {
+        "Date": "2025-04-18",
+        "Recovery": 180000,
+        "ReceiptNumber": "RCP697",
+        "Paid": 527815,
+        "Balance": 527815,
+        "DaysHeld": 104,
+        "InterestRate": 10.8,
+        "InterestAmount": 5539.07,
+        "TransactionType": "Bulk",
+        "InterestBand": "10.8%"
+      },
+      {
+        "Date": "2025-05-29",
+        "Recovery": 150000,
+        "ReceiptNumber": null,
+        "Paid": 677815,
+        "Balance": 677815,
+        "DaysHeld": 63,
+        "InterestRate": 10.8,
+        "InterestAmount": 2796.16,
+        "TransactionType": "Monthly",
+        "InterestBand": "10.8%"
+      }
+    ]
+  },
+  {
+    "MemberID": "104910",
+    "MemberName": "Arjun Das",
+    "MSNo": "7271",
+    "ShareCapital": 800,
+    "OpeningBalance": {
+      "Date": "2024-12-31",
+      "ThriftBalance": 303752
+    },
+    "ThriftRecords": [
+      {
+        "Date": "2025-01-19",
+        "Recovery": 150000,
+        "ReceiptNumber": "RCP318",
+        "Paid": 453752,
+        "Balance": 453752,
+        "DaysHeld": 193,
+        "InterestRate": 10.8,
+        "InterestAmount": 8566.03,
+        "TransactionType": "Bulk",
+        "InterestBand": "10.8%"
+      },
+      {
+        "Date": "2025-03-22",
+        "Recovery": 200000,
+        "ReceiptNumber": null,
+        "Paid": 653752,
+        "Balance": 653752,
+        "DaysHeld": 131,
+        "InterestRate": 10.8,
+        "InterestAmount": 7752.33,
+        "TransactionType": "Monthly",
+        "InterestBand": "10.8%"
+      },
+      {
+        "Date": "2025-04-28",
+        "Recovery": 150000,
+        "ReceiptNumber": null,
+        "Paid": 803752,
+        "Balance": 803752,
+        "DaysHeld": 94,
+        "InterestRate": 10.8,
+        "InterestAmount": 4172.05,
+        "TransactionType": "Monthly",
+        "InterestBand": "10.8%"
+      },
+      {
+        "Date": "2025-06-21",
+        "Recovery": 180000,
+        "ReceiptNumber": "RCP407",
+        "Paid": 983752,
+        "Balance": 983752,
+        "DaysHeld": 40,
+        "InterestRate": 10.8,
+        "InterestAmount": 2130.41,
+        "TransactionType": "Bulk",
+        "InterestBand": "10.8%"
+      }
+    ]
+  },
+  {
+    "MemberID": "103170",
+    "MemberName": "Swathi Shekar",
+    "MSNo": "7955",
+    "ShareCapital": 800,
+    "OpeningBalance": {
+      "Date": "2024-12-31",
+      "ThriftBalance": 291490
+    },
+    "ThriftRecords": [
+      {
+        "Date": "2025-03-04",
+        "Recovery": 100000,
+        "ReceiptNumber": null,
+        "Paid": 391490,
+        "Balance": 391490,
+        "DaysHeld": 149,
+        "InterestRate": 10.8,
+        "InterestAmount": 4408.77,
+        "TransactionType": "Monthly",
+        "InterestBand": "10.8%"
+      },
+      {
+        "Date": "2025-04-23",
+        "Recovery": 200000,
+        "ReceiptNumber": "RCP656",
+        "Paid": 591490,
+        "Balance": 591490,
+        "DaysHeld": 99,
+        "InterestRate": 10.8,
+        "InterestAmount": 5858.63,
+        "TransactionType": "Bulk",
+        "InterestBand": "10.8%"
+      },
+      {
+        "Date": "2025-06-06",
+        "Recovery": 200000,
+        "ReceiptNumber": null,
+        "Paid": 791490,
+        "Balance": 791490,
+        "DaysHeld": 55,
+        "InterestRate": 10.8,
+        "InterestAmount": 3254.79,
+        "TransactionType": "Monthly",
+        "InterestBand": "10.8%"
+      }
+    ]
+  },
+  {
+    "MemberID": "105905",
+    "MemberName": "Naveen Paul",
+    "MSNo": "7954",
+    "ShareCapital": 800,
+    "OpeningBalance": {
+      "Date": "2024-12-31",
+      "ThriftBalance": 373903
+    },
+    "ThriftRecords": [
+      {
+        "Date": "2025-02-04",
+        "Recovery": 100000,
+        "ReceiptNumber": null,
+        "Paid": 473903,
+        "Balance": 473903,
+        "DaysHeld": 177,
+        "InterestRate": 10.8,
+        "InterestAmount": 5237.26,
+        "TransactionType": "Monthly",
+        "InterestBand": "10.8%"
+      },
+      {
+        "Date": "2025-03-14",
+        "Recovery": 150000,
+        "ReceiptNumber": "RCP315",
+        "Paid": 623903,
+        "Balance": 623903,
+        "DaysHeld": 139,
+        "InterestRate": 10.8,
+        "InterestAmount": 6169.32,
+        "TransactionType": "Bulk",
+        "InterestBand": "10.8%"
+      },
+      {
+        "Date": "2025-07-10",
+        "Recovery": 150000,
+        "ReceiptNumber": "RCP259",
+        "Paid": 773903,
+        "Balance": 773903,
+        "DaysHeld": 21,
+        "InterestRate": 10.8,
+        "InterestAmount": 932.05,
+        "TransactionType": "Bulk",
+        "InterestBand": "10.8%"
+      }
+    ]
+  },
+  {
+    "MemberID": "104335",
+    "MemberName": "Divya Kapoor",
+    "MSNo": "7703",
+    "ShareCapital": 800,
+    "OpeningBalance": {
+      "Date": "2024-12-31",
+      "ThriftBalance": 366261
+    },
+    "ThriftRecords": [
+      {
+        "Date": "2025-01-12",
+        "Recovery": 50000,
+        "ReceiptNumber": null,
+        "Paid": 416261,
+        "Balance": 416261,
+        "DaysHeld": 200,
+        "InterestRate": 8.5,
+        "InterestAmount": 2328.77,
+        "TransactionType": "Monthly",
+        "InterestBand": "8.5%"
+      },
+      {
+        "Date": "2025-01-24",
+        "Recovery": 180000,
+        "ReceiptNumber": "RCP533",
+        "Paid": 596261,
+        "Balance": 596261,
+        "DaysHeld": 188,
+        "InterestRate": 10.8,
+        "InterestAmount": 10012.93,
+        "TransactionType": "Bulk",
+        "InterestBand": "10.8%"
+      },
+      {
+        "Date": "2025-05-10",
+        "Recovery": 120000,
+        "ReceiptNumber": null,
+        "Paid": 716261,
+        "Balance": 716261,
+        "DaysHeld": 82,
+        "InterestRate": 10.8,
+        "InterestAmount": 2911.56,
+        "TransactionType": "Monthly",
+        "InterestBand": "10.8%"
+      },
+      {
+        "Date": "2025-05-22",
+        "Recovery": 180000,
+        "ReceiptNumber": null,
+        "Paid": 896261,
+        "Balance": 896261,
+        "DaysHeld": 70,
+        "InterestRate": 10.8,
+        "InterestAmount": 3728.22,
+        "TransactionType": "Monthly",
+        "InterestBand": "10.8%"
+      },
+      {
+        "Date": "2025-06-13",
+        "Recovery": 100000,
+        "ReceiptNumber": "RCP265",
+        "Paid": 996261,
+        "Balance": 996261,
+        "DaysHeld": 48,
+        "InterestRate": 10.8,
+        "InterestAmount": 1420.27,
+        "TransactionType": "Bulk",
+        "InterestBand": "10.8%"
+      }
+    ]
+  }
+]
