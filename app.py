@@ -484,11 +484,6 @@ def analytics_page(manager: ThriftManager):
             'InterestAmount': '₹{:,.2f}'
         }))
 
-if __name__ == "__main__":
-    main()
-
-
-
 def data_management_page(manager: ThriftManager):
     st.header("📂 Data Management")
     
@@ -593,3 +588,6 @@ def data_management_page(manager: ThriftManager):
         
         preview_data = dict(list(manager.data.items())[:3])
         st.json(preview_data)
+
+if __name__ == "__main__":
+    main()
