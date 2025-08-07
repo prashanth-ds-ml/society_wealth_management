@@ -16,7 +16,7 @@ st.set_page_config(
 )
 
 class ThriftManager:
-    def __init__(self, data_file="thrift_data.json"):
+    def __init__(self, data_file="mock_thrift_data.json"):
         self.data_file = data_file
         self.data = self.load_data()
     
